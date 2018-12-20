@@ -13,4 +13,9 @@ public class Constant {
     static public String CMD = "CMD";
     static final public int CMD_GETCACHE = 0;
     static final public int CMD_GETDATA = 1;
+
+    // evemt messagr
+    static final public int AE_SECTION_LIST = 0;
+    static final public int AE_SECTION_DETAIL = 1;
+    static final public int AE_PLANT_DETAIL = 2;
 }

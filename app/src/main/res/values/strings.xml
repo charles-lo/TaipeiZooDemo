@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">TaipeiZooDemo</string>
+    <string name="loading">Loading</string>
+    <string name="taipei_zoo">"台北市市動物園"</string>
+    <string name="no_rest_info">"無休館資訊"</string>
 </resources>

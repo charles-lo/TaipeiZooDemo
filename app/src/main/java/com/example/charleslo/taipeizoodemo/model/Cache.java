@@ -7,6 +7,7 @@ public class Cache {
     private static Cache intance = null;
     public  ArrayList<ZooSection> m_ZooSectionList;
     public  ArrayList<ZooPlant> m_ZooPlantList;
+    public  ArrayList<ZooPlant> m_sectionTmpPlantList;
 
     public static synchronized Cache getInstance() {
         if (intance == null) {

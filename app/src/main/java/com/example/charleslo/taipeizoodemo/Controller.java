@@ -12,12 +12,12 @@ public class Controller {
     public static void getTpeZooCache(Context context) {
         Intent intent = new Intent(context, NetworkServices.class);
         intent.putExtra(CMD, CMD_GETCACHE);
-        context.startService(new Intent(context, NetworkServices.class));
+        context.startService(intent);
     }
 
     public static void getTpeZooData(Context context) {
         Intent intent = new Intent(context, NetworkServices.class);
         intent.putExtra(CMD, CMD_GETDATA);
-        context.startService(new Intent(context, NetworkServices.class));
+        context.startService(intent);
     }
 }
